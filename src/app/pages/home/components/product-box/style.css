@@ -1,0 +1,37 @@
+.img-cont {
+  margin-left: 0.6rem;
+  margin-right: 0.6rem;
+}
+.img-cont > img {
+  border-radius: 0.2rem;
+}
+.cats {
+  margin-top: 1rem;
+  color: rgb(150, 147, 141);
+}
+.main-img {
+  max-width: 300px;
+  max-height: 300px;
+  object-fit: contain;
+}
+.text-gray-500:hover {
+  transition: all 1s;
+  color: white;
+  background-color: green;
+  border-radius: 0.2rem;
+}
+.trunc {
+  max-width: 400px;
+  text-align: justify;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.titre {
+  margin-left: 1rem;
+  font-weight: 600;
+}
+.ic {
+  width: 4rem;
+}
